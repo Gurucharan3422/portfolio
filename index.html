@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">GURU CHARAN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+           
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="profile-img-container">
+              <img
+                src="./assets/mypic.jpg"
+                alt="Profile Picture"
+                class="img-fluid profile-img"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-content">
+              <p class="subtitle">Hello, I'm</p>
+              <h1 class="main-title">B.Guru Charan</h1>
+              <p class="job-title">
+                Full Stack Web Developer | Passionate About Building Scalable
+                and Efficient Web Applications | Seeking Opportunities to
+                Contribute and Grow in the Tech Industry
+              </p>
+              <div class="button-group">
+                <a href="/assets/myresume.pdf"
+                  class="btn btn-primary"
+                  download="myresume.pdf"
+                  >Download CV</a
+                >
+
+                <a href="#contact" class="btn btn-outline-primary"
+                  >Contact Me</a
+                >
+              </div>
+              <div class="social-icons">
+                <a href="https://github.com/Gurucharan3422" class="social-icon"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/guru-charan-barenkala-1a1671340"
+                  class="social-icon"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">Get To Know</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="about-img">
+              <img
+                src="./assets/aboutpic.jpg"
+                alt="About Me Image"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about-content">
+              <p class="about-text">
+                I'm Guru Charan, a passionate Full Stack Web Developer dedicated
+                to building scalable and efficient web applications. With a
+                strong foundation in both frontend and backend technologies, I
+                aim to create solutions that address real-world challenges. I
+                thrive on solving algorithmic problems and continuously
+                expanding my skill set to stay updated with the latest
+                technologies. Currently pursuing my degree in Computer Science,
+                I'm eager to contribute my technical expertise and creativity to
+                impactful projects. Let's connect and build something amazing
+                together!
+              </p>
+              <div class="about-platforms mt-4">
+                <h3>Find Me On Coding Platforms</h3>
+                <div class="platform-links">
+                  <a
+                    href="https://leetcode.com/u/gurucharan019/"
+                    class="platform-link"
+                  >
+                    <i class="fas fa-code"></i> LeetCode
+                  </a>
+                  <a
+                    href="https://www.hackerrank.com/profile/guru73422"
+                    class="platform-link"
+                  >
+                    <i class="fab fa-hackerrank"></i> HackerRank
+                  </a>
+                  <a
+                    href="https://www.geeksforgeeks.org/user/guru7wh4c/"
+                    class="platform-link"
+                  >
+                    <i class="fas fa-book"></i> GeeksforGeeks
+                  </a>
+                  <a
+                    href="https://www.interviewbit.com/profile/guru-charan_820/"
+                    class="platform-link"
+                  >
+                    <i class="fas fa-user-tie"></i> InterviewBit
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">My Academic Journey</span>
+          <h2>Education</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="education-content">
+                <h3>Bachelor of Engineering</h3>
+                <h4>Computer Science and Engineering</h4>
+                <p class="institution">
+                  Narsimha Reddy Engineering and college
+                </p>
+                <p class="year">2021 - 2024</p>
+                <p class="grade">CGPA: 7.56</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-school"></i>
+              </div>
+              <div class="education-content">
+                <h3>Diploma</h3>
+                <h4>Electronical and Electrical Engineering</h4>
+                <p class="institution">
+                  Siddhartha institution of Technology and Sciences
+                </p>
+                <p class="year">2021</p>
+                <p class="grade">Score: 75%</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <div class="education-content">
+                <h3>Secondary School</h3>
+                <h4>General</h4>
+                <p class="institution">St.Alphonsus High School</p>
+                <p class="year">2018</p>
+                <p class="grade">Score: 80%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">Explore My</span>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          
+          <div class="icon">
+            <i
+              class="fa-brands fa-html5"
+              style="color: #e34f26; font-size: 50px"
+            ></i>
+            <p>HTML5</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-css3-alt"
+              style="color: #1572b6; font-size: 50px"
+            ></i>
+            <p>CSS3</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-js"
+              style="color: #f7df1e; font-size: 50px"
+            ></i>
+            <p>JavaScript</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-bootstrap"
+              style="color: black; font-size: 50px"
+            ></i>
+            <p>Bootstrap</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-react"
+              style="color: #61dafb; font-size: 50px"
+            ></i>
+            <p>ReactJS</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-node-js"
+              style="color: #339933; font-size: 50px"
+            ></i>
+            <p>Node.js</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-expeditedssl"
+              style="color: #000000; font-size: 50px"
+            ></i>
+            <p>Express.js</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-solid fa-database"
+              style="color: #4db33d; font-size: 50px"
+            ></i>
+            <p>MongoDB</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-solid fa-database"
+              style="color: #00758f; font-size: 50px"
+            ></i>
+            <p>MySQL</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-git-alt"
+              style="color: #f34f29; font-size: 50px"
+            ></i>
+            <p>Git</p>
+          </div>
+
+          <div class="icon">
+            <i
+              class="fa-brands fa-github"
+              style="color: #181717; font-size: 50px"
+            ></i>
+            <p>GitHub</p>
+          </div>
+          <div class="icon">
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tailwindcss.svg"
+              alt="Tailwind CSS"
+              width="50"
+              height="50"
+            />
+            <p>Tailwind CSS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">Browse My Recent</span>
+          <h2>Projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img
+                  src="./assets/movie.png"
+                  alt="Project Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Movie web App</h3>
+                <p class="project-description" id="proj-desc-1">
+                  Developed a Full-Stack Movie Website using the MERN Stack
+                  (MongoDB, Express.js, React.js, Node.js) with secure JWT
+                  Authentication. * Features include seamless navigation with
+                  React Router DOM, dynamic movie listings, trailer integration,
+                  search functionality, and a personalized playlist feature. *
+                  Implemented API integration to fetch real-time data from the
+                  backend, ensuring up-to-date movie information. * Applied MVC
+                  architecture for better code organization and scalability. *
+                  Backend deployed on Render, handling data efficiently using
+                  MongoDB. * User data is securely managed with hashed passwords
+                  using JWT authentication.
+                </p>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/Gurucharan3422/movie"
+                    class="btn btn-sm btn-primary"
+                    >GitHub</a
+                  >
+                  <button
+                    class="btn btn-sm btn-outline-primary toggle-desc"
+                    data-target="proj-desc-1"
+                  >
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img
+                  src="./assets/makeup.png"
+                  alt="Project Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Makeups Website</h3>
+                <p class="project-description" id="proj-desc-2">
+                  Developed a responsive e-commerce platform for beauty products
+                  using HTML, CSS, Bootstrap, and JavaScript, featuring dynamic
+                  product cards, search functionality, and a custom form for
+                  adding new products. Integrated local storage to ensure data
+                  persistence, providing users with a seamless and interactive
+                  experience. This project strengthened my frontend development
+                  skills and enhanced my understanding of building user-friendly
+                  web applications.
+                </p>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/Gurucharan3422/project-second.git"
+                    class="btn btn-sm btn-primary"
+                    >GitHub</a
+                  >
+                  <button
+                    class="btn btn-sm btn-outline-primary toggle-desc"
+                    data-target="proj-desc-2"
+                  >
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img
+                  src="./assets/todo.png"
+                  alt="Project Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Guru Todo App</h3>
+                <p class="project-description" id="proj-desc-3">
+                  Full-Stack To-Do App A comprehensive full-stack To-Do
+                  application built using ReactJS for the frontend, Node.js with
+                  Express.js for the backend, and MongoDB for database
+                  management. The app features secure Login and Registration
+                  with password hashing using bcrypt and authentication using
+                  JWT (JSON Web Tokens). Users can add, update, and delete
+                  tasks, update their profile picture, and securely log out. The
+                  data is efficiently managed using well-structured User Schema
+                  and Task Schema in MongoDB. All API endpoints have been
+                  thoroughly tested using Postman to ensure reliability. This
+                  project reflects my ability to build scalable, secure, and
+                  user-friendly full-stack applications.
+                </p>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/Gurucharan3422/my-todo-app.git"
+                    class="btn btn-sm btn-primary"
+                    >GitHub</a
+                  >
+                  <button
+                    class="btn btn-sm btn-outline-primary toggle-desc"
+                    data-target="proj-desc-3"
+                  >
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Find All My Projects Button -->
+        <div class="text-center mt-4">
+          <a
+            href="https://github.com/Gurucharan3422"
+            class="btn btn-lg btn-primary"
+            >Find All My Projects on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">My Proud</span>
+          <h2>Achievements & Certifications</h2>
+        </div>
+
+        <div
+          id="achievementsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1: AI Hunt, CCNA, NPTEL 1 -->
+             
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img
+                        src="./assets/gc.jpg"
+                        alt="AI Hunt"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="achievement-content">
+                      <h3>Certified MERN Full Stack Developer</h3>
+                      <p>
+                        Certified MERN Full Stack Developer from CareerShoot
+                        Academy with a strong foundation in front-end and
+                        back-end technologies. Equipped with practical knowledge
+                        in designing and developing scalable web applications.
+                        Passionate about building efficient solutions and
+                        continuously enhancing technical skills to stay updated
+                        with industry trends
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img src="./assets/ml.jpg" alt="CCNA" class="img-fluid" />
+                    </div>
+                    
+                    <div class="achievement-content">
+                      <h3>Certificate of Internship in Machine Learning</h3>
+                      <p>
+                        I successfully completed a Machine Learning internship
+                        and mini-project at Narsimha Reddy Engineering College
+                        in collaboration with VALUE LADEN. During this
+                        internship, I gained hands-on experience in developing
+                        and implementing machine learning models, analyzing
+                        datasets, and deriving meaningful insights. This
+                        experience enhanced my understanding of practical
+                        applications of machine learning concepts, fostering my
+                        analytical and problem-solving skills.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img
+                        src="./assets/c3.jpg"
+                        alt="NPTEL 1"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="achievement-content">
+                      <h3>
+                        Certified in Web Development | Sololearn
+                      </h3>
+                      <p>
+                        Certified in Web Development by Sololearn, demonstrating both theoretical and practical understanding of web technologies. Certificate ID: CC-CBFTAEFY, issued on 30th March 2025 by Yeva Hyusyan, CEO of Sololearn
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: NPTEL 2, TCS iON, Tableau -->
+
+            
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img
+                        src="./assets/c5.jpg"
+                        alt="NPTEL 2"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="achievement-content">
+                      <h3>
+                        Certificate of Merit
+                      <p>t was an honour to receive recognition from Quthbullapur MLA K.P. Vivekanand and our esteemed Chairman Narsimha Reddy Garu at Youth Conclave - 2K23, hosted by Narsimha Reddy Engineering College. This achievement reflects my enthusiasm for cultural activities, dedication to teamwork, and commitment to excellence. Participating in such events has enriched my leadership, collaboration, and creative expression skills, fostering personal and professional growth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img
+                        src="./assets/c4.jpg"
+                        alt="TCS iON"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="achievement-content">
+                      <h3>Certificate of Appreciation – Indian Sign Language
+                        Awareness</h3>
+                      <p>Awarded in recognition of my contribution towards
+                        raising awareness of Indian Sign Language (ISL) and
+                        promoting accessibility and inclusivity. This experience
+                        enhanced my understanding of the importance of
+                        communication accessibility and strengthened my
+                        commitment to social responsibility. Through this
+                        initiative, I supported efforts to foster a more
+                        inclusive society by advocating for language inclusivity
+                        and equal opportunities for the deaf and hard-of-hearing
+                        community</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="achievement-card text-center">
+                    <div class="achievement-img">
+                      <img
+                        src="./assets/c6.jpg"
+                        alt="Tableau Specialization"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="achievement-content">
+                      <h3>Web Development Certification - The Digital Adda</h3>
+                      <p>Earned a Certification in Web Development from The Digital Adda, recognized by the Ministry of MSME, Govt. of India.
+                        Certificate ID: DA/WDP/23/13980 | Date: March 28, 2025</p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="carousel-item">
+                  <div class="col-md-4">
+                    <div class="achievement-card text-center">
+                      <div class="achievement-img">
+                        <img src="./assets/school.jpg" alt="New Certificate Title" class="img-fluid" />
+                      </div>
+                      <div class="achievement-content">
+                        <h3>Certificate of Participation - Times NIE National Aptitude Challenge 2017-18</h3>
+                        <p>This certificate recognizes my participation in the *Times NIE National Aptitude Challenge 2017-18, organized by **The Times of India Group* in collaboration with *BYJU'S The Learning App. The challenge aimed to assess and enhance students' aptitude and problem-solving skills on a national level. As a participant from **St.Alponsus High School (X-A)*, this achievement reflects my dedication to academic excellence and competitive learning.  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+            
+
+            <!-- Slide 3: Problem Solving, Java, InterviewBit -->
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#achievementsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#achievementsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#achievementsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#achievementsCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#achievementsCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="subtitle">Get in Touch</span>
+          <h2>Contact Me</h2>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+          <!-- Contact Info -->
+          <div class="col-lg-6 d-flex">
+            <div class="contact-info p-4 shadow rounded w-100">
+              <h3 class="mb-3">Let's Connect</h3>
+              <p>Feel free to reach out with any questions or inquiries.</p>
+              <div class="contact-item d-flex align-items-center">
+                <div class="contact-icon me-2">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-detail d-flex align-items-center">
+                  <p class="mb-0">
+                    <a
+                      href="mailto:guru73422@gmail.com"
+                      class="text-decoration-none"
+                      >guru73422@gmail.com</a
+                    >
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/guru-charan-barenkala-1a1671340"
+                    class="social-link ms-3"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-6 d-flex">
+            <div class="contact-form-container p-4 shadow rounded w-100">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-pill"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input
+                        type="email"
+                        class="form-control rounded-pill"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control rounded"
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary w-100 rounded-pill"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-links">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#skills">Skills</a></li>
+        
+                <li class="list-inline-item">
+                  <a href="#projects">Projects</a>
+                </li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="copyright">
+                © B.Guru Charan | 2025 | All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
